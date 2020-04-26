@@ -12,7 +12,7 @@ const Form = ({returnGuessToApp}) => {
     }
 
     return (
-        <form style={{marginTop: '20px'}} onSubmit={onSubmit}>
+        <form id="form" style={{marginTop: '20px'}} onSubmit={onSubmit}>
             <TextField style={{ paddingBottom: '20px'}} fullWidth type="number" name="guess" label="Enter your guess..." required />
             <Button fullWidth variant="contained" color="primary" type="submit">Guess</Button>
         </form>
