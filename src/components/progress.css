@@ -6,13 +6,19 @@
     min-height: 30px;
     list-style: none;
     padding: 5px;
-    font-size: 24px;
+    font-size: 18px;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 0 20px;
 }
 
 .progressBar__history li {
     margin-right: 8px;
     padding: 2px;
     border-radius: 4px;
+}
+
+.guessList {
+    font-size: 14px;
+    margin-top: 0;
 }
