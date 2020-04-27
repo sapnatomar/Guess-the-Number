@@ -4,3 +4,7 @@
     background-size: cover;
     background-position: center;
 }
+
+p {
+    margin-top: 2px;
+}

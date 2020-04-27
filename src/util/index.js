@@ -7,6 +7,7 @@ export const initialState = () => ({
     attempt: 0,
     feedback: "",
     successDialogBoxOpen: false,
+    open: false,
     score: 100,
 });
 
